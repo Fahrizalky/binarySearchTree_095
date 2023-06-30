@@ -45,4 +45,6 @@ public:
 			return; //Exit
 		}
 
-		
+		if (element < parent->info) //If the value in data field of the new node is less than that the parent
+		{
+			
